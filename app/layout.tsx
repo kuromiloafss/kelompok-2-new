@@ -23,7 +23,7 @@ export default function RootLayout({
             <div className="flex items-center gap-8">
               <div className="flex items-center gap-2">
                 <div className="h-8 w-8 rounded-full bg-blue-500 shadow-inner"></div>
-                <span className="text-xl font-bold tracking-tight text-slate-700">Kodecolor</span>
+                <span className="text-xl font-bold tracking-tight text-slate-700">Kelompok 2</span>
               </div>
               <div className="hidden md:block">
                 <input 
