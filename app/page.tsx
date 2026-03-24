@@ -21,13 +21,13 @@ export default function ProfilePage() {
               <div className="space-y-4">
                 <div className="relative border-l-2 border-blue-500 pl-4">
                   <span className="absolute -left-[5px] top-0 h-2 w-2 rounded-full bg-blue-500"></span>
-                  <p className="font-bold text-slate-700">Inotek Dev Team</p>
-                  <p className="text-sm text-gray-500 italic">Primary Role</p>
-                  <p className="mt-1 text-xs text-gray-400">Universitas Teknologi • 2024 - Present</p>
+                  <p className="font-bold text-slate-700">Himpunan Mahasiswa Teknologi Informasi</p>
+                  <p className="text-sm text-gray-500 italic">BPH - Wakil Departemen</p>
+                  <p className="mt-1 text-xs text-gray-400">Universitas Brawijaya • 2025 - Present</p>
                 </div>
                 <div className="pl-4">
-                  <p className="font-bold text-slate-700">Digital Lab</p>
-                  <p className="text-sm text-gray-400">Assistant Researcher</p>
+                  <p className="font-bold text-slate-700">Esekutif Mahasiswa</p>
+                  <p className="text-sm text-gray-400">Staff Ahli Divisi Advokesma</p>
                 </div>
               </div>
             </div>
@@ -51,7 +51,7 @@ export default function ProfilePage() {
           <div className="mb-6 flex flex-col justify-between gap-4 md:flex-row md:items-start">
             <div>
               <div className="flex items-center gap-3">
-                <h1 className="text-3xl font-bold text-slate-800">Nama Lengkap Anda</h1>
+                <h1 className="text-3xl font-bold text-slate-800">Seila Salsabiela</h1>
                 <div className="flex items-center text-sm text-gray-400">
                    <MapPin className="mr-1 h-4 w-4" /> Banjarbaru, Indonesia
                 </div>
@@ -101,7 +101,7 @@ export default function ProfilePage() {
                 <span className="text-slate-600">Banjarbaru, Kalimantan Selatan, 70714</span>
                 
                 <span className="font-bold text-slate-700">E-mail:</span>
-                <span className="text-blue-500">emailanda@example.com</span>
+                <span className="text-blue-500">seila.salsabiela@gmail.com</span>
                 
                 <span className="font-bold text-slate-700">Site:</span>
                 <a href="#" className="text-blue-500 hover:underline">www.portofolioku.com</a>
@@ -112,13 +112,13 @@ export default function ProfilePage() {
               <h3 className="mb-6 text-xs font-bold uppercase tracking-widest text-gray-400">Basic Information</h3>
               <div className="grid grid-cols-1 gap-y-4 text-sm md:grid-cols-[150px_1fr]">
                 <span className="font-bold text-slate-700">Kelas:</span>
-                <span className="text-slate-600">Gen Z - Tech B</span>
+                <span className="text-slate-600">T2 E</span>
                 
                 <span className="font-bold text-slate-700">Jurusan:</span>
-                <span className="text-slate-600">Teknik Informatika / Software Engineering</span>
+                <span className="text-slate-600">Teknologi Informasi</span>
                 
                 <span className="font-bold text-slate-700">Gender:</span>
-                <span className="text-slate-600">Male</span>
+                <span className="text-slate-600">Female</span>
               </div>
             </section>
 
