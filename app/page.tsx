@@ -3,17 +3,14 @@ import { Mail, MapPin, Globe, Phone, Bookmark, MessageSquare, UserPlus, Star } f
 export default function ProfilePage() {
   return (
     <main className="mx-auto max-w-6xl p-4 md:p-8">
-      <div className="flex flex-col gap-8 md:flex-row">
-        
-        {/* Kolom Kiri - Foto & Informasi Sekunder */}
+      <div className="flex flex-col gap-8 md:flex-row">    
         <aside className="w-full md:w-1/3">
           <div className="mb-6 overflow-hidden rounded-lg bg-white shadow-sm border border-gray-100">
-            <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop" 
-              alt="Profile Picture" 
-              className="h-auto w-full object-cover grayscale-[20%]"
-            />
+            <blockquote className="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DUGQ9yJk5bO/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="14"></blockquote>
+            <script async src="//www.instagram.com/embed.js"></script>
           </div>
+
+          {/* HAPUS </div> YANG INI */}
 
           <div className="space-y-8 px-2">
             <div>
@@ -21,13 +18,13 @@ export default function ProfilePage() {
               <div className="space-y-4">
                 <div className="relative border-l-2 border-blue-500 pl-4">
                   <span className="absolute -left-[5px] top-0 h-2 w-2 rounded-full bg-blue-500"></span>
-                  <p className="font-bold text-slate-700">Inotek Dev Team</p>
+                  <p className="font-bold text-slate-700">Ekraf - Kreatrip</p>
                   <p className="text-sm text-gray-500 italic">Primary Role</p>
-                  <p className="mt-1 text-xs text-gray-400">Universitas Teknologi • 2024 - Present</p>
+                  <p className="mt-1 text-xs text-gray-400">Universitas Teknologi • 2025 - Present</p>
                 </div>
                 <div className="pl-4">
-                  <p className="font-bold text-slate-700">Digital Lab</p>
-                  <p className="text-sm text-gray-400">Assistant Researcher</p>
+                  <p className="font-bold text-slate-700">Student</p>
+                  <p className="text-sm text-gray-400">2025</p>
                 </div>
               </div>
             </div>
@@ -51,12 +48,12 @@ export default function ProfilePage() {
           <div className="mb-6 flex flex-col justify-between gap-4 md:flex-row md:items-start">
             <div>
               <div className="flex items-center gap-3">
-                <h1 className="text-3xl font-bold text-slate-800">Nama Lengkap Anda</h1>
+                <h1 className="text-3xl font-bold text-slate-800">Tania Hertawan</h1>
                 <div className="flex items-center text-sm text-gray-400">
-                   <MapPin className="mr-1 h-4 w-4" /> Banjarbaru, Indonesia
+                   <MapPin className="mr-1 h-4 w-4" /> Jakarta, Indonesia
                 </div>
               </div>
-              <p className="mt-1 text-lg font-medium text-blue-500">Software Developer & Student</p>
+              <p className="mt-1 text-lg font-medium text-blue-500">Student</p>
               
               <div className="mt-6 flex items-center gap-4">
                 <div className="text-2xl font-bold">8,6</div>
@@ -95,13 +92,13 @@ export default function ProfilePage() {
               <h3 className="mb-6 text-xs font-bold uppercase tracking-widest text-gray-400">Contact Information</h3>
               <div className="grid grid-cols-1 gap-y-4 text-sm md:grid-cols-[150px_1fr]">
                 <span className="font-bold text-slate-700">Phone:</span>
-                <span className="text-blue-500">+62 812 3456 7890</span>
+                <span className="text-blue-500">+62 813 8681 4423</span>
                 
                 <span className="font-bold text-slate-700">Domisili:</span>
-                <span className="text-slate-600">Banjarbaru, Kalimantan Selatan, 70714</span>
+                <span className="text-slate-600">Matraman, Jakarta, 65145</span>
                 
                 <span className="font-bold text-slate-700">E-mail:</span>
-                <span className="text-blue-500">emailanda@example.com</span>
+                <span className="text-blue-500">taniahertawan22@gmail.com</span>
                 
                 <span className="font-bold text-slate-700">Site:</span>
                 <a href="#" className="text-blue-500 hover:underline">www.portofolioku.com</a>
@@ -112,13 +109,13 @@ export default function ProfilePage() {
               <h3 className="mb-6 text-xs font-bold uppercase tracking-widest text-gray-400">Basic Information</h3>
               <div className="grid grid-cols-1 gap-y-4 text-sm md:grid-cols-[150px_1fr]">
                 <span className="font-bold text-slate-700">Kelas:</span>
-                <span className="text-slate-600">Gen Z - Tech B</span>
+                <span className="text-slate-600">T2E</span>
                 
                 <span className="font-bold text-slate-700">Jurusan:</span>
-                <span className="text-slate-600">Teknik Informatika / Software Engineering</span>
+                <span className="text-slate-600">Teknologi Informasi</span>
                 
                 <span className="font-bold text-slate-700">Gender:</span>
-                <span className="text-slate-600">Male</span>
+                <span className="text-slate-600">Female</span>
               </div>
             </section>
 
@@ -126,9 +123,10 @@ export default function ProfilePage() {
             <section>
               <h3 className="mb-4 text-xs font-bold uppercase tracking-widest text-gray-400">Tentang Diri</h3>
               <p className="leading-relaxed text-slate-600">
-                Halo! Saya adalah seorang mahasiswa yang sangat antusias dalam dunia teknologi informasi dan pengembangan perangkat lunak. Ketertarikan saya dimulai dari rasa ingin tahu bagaimana sebuah aplikasi dapat mempermudah pekerjaan manusia sehari-hari. Selama masa perkuliahan, saya fokus mendalami ekosistem JavaScript, khususnya React dan Next.js, serta bagaimana mengelola database yang efisien menggunakan PostgreSQL dan Supabase. Saya percaya bahwa desain yang baik bukan hanya tentang estetika, tetapi juga tentang fungsionalitas dan pengalaman pengguna yang seamless. 
-                <br /><br />
-                Selain kesibukan akademik, saya aktif berkontribusi dalam tim inovasi teknologi (Inotek) untuk membangun identitas visual dan sistem manajemen data yang skalabel. Saya memiliki kepribadian yang disiplin, terutama karena kegemaran saya dalam menjaga kebugaran di gym yang mengajarkan saya tentang proses dan konsistensi. Saya selalu terbuka untuk mempelajari teknologi baru dan berkolaborasi dalam proyek-proyek kreatif yang menantang, karena bagi saya, belajar adalah perjalanan seumur hidup yang tidak akan pernah berhenti.
+                Saya adalah mahasiswa Program Studi Teknologi Informasi yang memiliki semangat tinggi dalam menggabungkan dunia teknologi dengan kreativitas. Sejak awal menempuh pendidikan di bidang ini, saya menyadari bahwa teknologi bukan sekadar tentang kode dan sistem, melainkan tentang bagaimana menciptakan solusi yang berdampak nyata bagi masyarakat. Ketertarikan saya terhadap inovasi digital membawa saya bergabung menjadi anggota aktif dalam Himpunan Mahasiswa di Departemen Ekonomi Kreatif. Di sini, saya belajar bahwa teknologi dan ekonomi kreatif adalah dua sisi mata uang yang saling melengkapi.
+
+                
+                Sebagai mahasiswa Teknologi Informasi, saya mendalami berbagai aspek pengembangan perangkat lunak, mulai dari pemrograman web, desain antarmuka pengguna (UI/UX), hingga pengelolaan basis data. Namun, pengalaman berharga justru saya dapatkan ketika terlibat langsung dalam organisasi kemahasiswaan. Di Departemen Ekonomi Kreatif, saya berperan dalam menginisiasi proyek-proyek digital yang mendukung pengembangan ekosistem kreatif di kampus. Saya percaya bahwa mahasiswa tidak hanya dituntut untuk menguasai teori, tetapi juga mampu menerapkan ilmunya dalam kegiatan yang konkret dan kolaboratif.
               </p>
             </section>
           </div>
