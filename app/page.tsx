@@ -8,11 +8,8 @@ export default function ProfilePage() {
         {/* Kolom Kiri - Foto & Informasi Sekunder */}
         <aside className="w-full md:w-1/3">
           <div className="mb-6 overflow-hidden rounded-lg bg-white shadow-sm border border-gray-100">
-            <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop" 
-              alt="Profile Picture" 
-              className="h-auto w-full object-cover grayscale-[20%]"
-            />
+            <blockquote className="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DTiQjc_j8Xu/?utm_source=ig_embed" data-instgrm-version="14"></blockquote>
+            <script async src="//www.instagram.com/embed.js"></script>
           </div>
 
           <div className="space-y-8 px-2">
